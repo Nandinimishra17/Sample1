@@ -1,0 +1,125 @@
+<html>
+<head>
+
+<title>Register</title>
+</head>
+<body>
+<form>
+	<fieldset>
+	<legend>Personal Details</legend>
+	
+
+<p>
+<label>
+Salutation*
+<br />
+<select name="salutation">
+<option>--None--</option>
+<option>Mr.</option>
+<option>Ms.</option>
+<option>Mrs.</option>
+<option>Dr.</option>
+<option>Prof.</option>
+</select>
+</label>
+</p>
+
+
+	
+
+<p>
+<label><b>First name*</b>: <input name="firstName" /></label>
+</p>
+
+<p>
+<label><b>Last name*</b>: <input name="lastName" /></label>
+</p>	
+
+<p>
+Gender :
+<label><input type="radio" name="gender" value="male" /> Male</label>
+<label><input type="radio" name="gender" value="female" /> Female</label>
+</p>
+
+<p>
+<label><b>Date of Birth*</b>:<input type="date" name="birthDate"></label>
+</p>
+
+<p>
+<select name="day">
+            <option>1</option>
+            <option>2</option>
+            <option>12</option>
+            <option>11</option>
+        </select>
+        Month : <select name="month">
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>March</option>
+            <option>April</option>
+        </select>
+        Year : <select name="year">
+            <option>2021</option>
+            <option>2022</option>
+            <option>2012</option>
+            <option>2023</option>
+        </select></p>
+
+<p>
+<label>
+<b>Address*</b> :
+<br />
+</label>
+<label>
+Line 1* :
+<br />
+<textarea name="line1" maxlength=20></textarea>
+</label><br />
+<label>
+Line 2* :
+<br />
+<textarea name="line2" cols="30" rows="2" maxlength=20></textarea>
+</label>
+</p>
+
+<p>
+<label>City*: <input name="city" maxlength=20 /></label>
+</p>
+
+<p>
+<label>State*: <input name="state" maxlength=10 /></label>
+</p>	
+
+
+<p>
+<label>Credit Card*: <input name="Credit Card" maxlength=10 /></label>
+</p>
+
+<p>
+<label><select name="Credit Card type*">
+<option>--None--</option>
+<option>Visa</option>
+<option>Mastercard</option>
+<option>Debit Card</option>
+</select>
+</label>
+</p>
+
+<p>
+<label><b>Email*</b>:<input type="email" name="email" /></label>
+</p>
+
+
+	
+<p>
+<button type="submit">Submit</button>
+</p>
+<p>
+<button type="clear">Clear</button>
+</p>
+
+
+	</fieldset>
+</form>
+</body>
+</html>
